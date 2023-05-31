@@ -721,11 +721,11 @@ section.projects
     color: #fff;
 }
 
-.projects .box .text
+/* .projects .box .text
 {
     visibility: none; opacity: 0;
     transition: opacity 0.3s;
-}
+} */
 
 .projects .box:hover .text
 {
@@ -746,6 +746,7 @@ section.projects
 
 .projects .container .box button
 {
+    margin-top: 25%;
     font-size: 16px;
     background-image: linear-gradient(to right, #14d6a9, #319bff, #319bff,#14d6a9);
     background-size: 300%;
@@ -945,6 +946,11 @@ footer .container p
 
 @media screen and (max-width: 768px) 
 {
+    .projects .container .box button
+    {
+        margin-top: 45%;
+    }
+
     .languages
     {
         position: static;
