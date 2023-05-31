@@ -771,7 +771,16 @@ section.projects
     width: 380px;
     border-right: 1px solid var(--main-color);
 }
-
+.projects .container .box-4 .img1
+{
+    width: 350px;
+    border-right: 1px solid var(--main-color);
+}
+.projects .container .box-4 .img2
+{
+    width: 175px;
+    border-right: 1px solid var(--main-color);
+}
 
 /* CONTACT */
 
@@ -1298,6 +1307,30 @@ footer .container p
         position: absolute;
         top: 0;
     }
+
+    .projects .container .box-4 .img1
+    {
+        width: 300px;
+        height: auto;
+        right: 0;
+        border-right: 0px;
+        border-left: 1px solid var(--h-blue);
+    }
+    .projects .container .box-4 .img2
+    {
+        position: absolute;
+        height: auto;
+        width: 40%;
+        top: 70px;
+        right: 0;
+        border-radius: 5px;
+        border: 1px solid var(--p-blue);
+    }
+    .projects .container .box-4 .text
+    {
+        position: absolute;
+        top: 0;
+    }
     
     
 
@@ -1503,6 +1536,7 @@ footer .container p
         position: absolute;
         top: 0;
     }
+    
     
     
 
